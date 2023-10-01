@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.thumbnail-img {
+  width: 100%;
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.popup-content {
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+}
+
+.close-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-width: 0px;
+  align-self: flex-end;
+}
